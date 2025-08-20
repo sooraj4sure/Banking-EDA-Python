@@ -27,9 +27,7 @@ This project focuses on learning and practicing Exploratory Data Analysis (EDA) 
 
 ## Materials and Data
 
-We will use a portion of the **Bank Marketing Dataset** from the UCI Machine Learning Repository:
-[https://archive.ics.uci.edu/ml](https://archive.ics.uci.edu/ml)
-
+]
 This dataset is open and free to use for research. It is explained in detail in the paper by **Moro et al., 2014**.
 
 In this project, we will perform a preliminary analysis to understand which customers are more likely to respond positively to a bank’s phone call (i.e., subscribe to a term deposit). This relates to **bank scoring**, where we predict client behavior based on their characteristics.
