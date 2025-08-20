@@ -1,0 +1,67 @@
+﻿This dataset is free to use for research. If you use it, please cite this paper:
+
+**\[Moro et al., 2014]**
+S. Moro, P. Cortez, P. Rita.
+*A Data-Driven Approach to Predict the Success of Bank Telemarketing*.
+Decision Support Systems, 2014. DOI: 10.1016/j.dss.2014.03.001
+
+Links:
+
+* PDF: [http://dx.doi.org/10.1016/j.dss.2014.03.001](http://dx.doi.org/10.1016/j.dss.2014.03.001)
+* BibTeX: [http://www3.dsi.uminho.pt/pcortez/bib/2014-dss.txt](http://www3.dsi.uminho.pt/pcortez/bib/2014-dss.txt)
+
+---
+
+### Dataset Overview
+
+**Title:** Bank Marketing (with social/economic context)
+
+**Creators (2014):** Sérgio Moro, Paulo Cortez, Paulo Rita
+
+**Based on:** The original UCI Bank Marketing dataset with 5 added social/economic features from Banco de Portugal.
+
+**Goal:** Predict whether a client will subscribe to a bank term deposit (target variable ).
+
+---
+
+### Files Included
+
+1. **bank-additional-full.csv** — Full dataset (41,188 entries), sorted by date (May 2008 to Nov 2010)
+2. **bank-additional.csv** — 10% sample (4,119 entries), for testing heavy ML models like SVM
+
+---
+
+### Key Info
+
+* Total instances: **41,188**
+* Total attributes: **20 input variables + 1 output (y)**
+* Type: **Binary classification**
+* Missing values: Marked as `"unknown"` in categorical fields
+
+---
+
+### Variable Details (Inputs)
+
+#### Client information:
+
+* age (numeric)
+* job (e.g., admin., student, retired…)
+* marital status
+* education
+* default (credit in default?)
+* housing loan?
+* personal loan?
+
+
+#### Campaign info:
+
+* campaign: number of contacts
+* pdays: days since last contact
+* previous: number of previous contacts
+* poutcome: result of previous campaign
+
+
+
+
+
+
